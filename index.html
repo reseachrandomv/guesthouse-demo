@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Tharihiyaa — Island Guesthouse, Maldives (Demo)</title>
+<meta name="description" content="Tharihiyaa: a small island guesthouse under the stars. A design demo with a fictional brand.">
+<meta name="theme-color" content="#0b2a3a">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-phase="day">
+<header class="nav" id="nav">
+  <a href="#top" class="brand"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.4 7.2H22l-6 4.6 2.3 7.2L12 16.6 5.7 21l2.3-7.2-6-4.6h7.6z"/></svg>Tharihiyaa</a>
+  <nav class="links" id="links">
+    <a href="#rooms">Rooms</a><a href="#experiences">Experiences</a><a href="#facilities">Stay</a><a href="#gallery">Gallery</a><a href="#find">Find us</a>
+    <a href="#enquire" class="pill">Enquire</a>
+  </nav>
+  <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+</header>
+
+<main id="top">
+<section class="hero" aria-label="Live island sky">
+  <div class="sky" id="sky"></div>
+  <div class="stars" id="stars" aria-hidden="true"></div>
+  <div class="orb" id="orb" aria-hidden="true"></div>
+  <svg class="island" viewBox="0 0 1440 260" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M520 200 Q700 120 900 200 Z" class="land"/>
+    <g class="palm"><path d="M640 190 Q646 120 664 92" stroke-width="7" fill="none" class="trunk"/>
+      <path d="M664 92 q-40 -10 -70 14 M664 92 q-30 -34 -64 -30 M664 92 q14 -38 52 -40 M664 92 q44 -6 66 24 M664 92 q-4 -40 4 -60" stroke-width="6" fill="none" class="frond"/></g>
+    <g class="palm s"><path d="M780 196 Q786 140 800 116" stroke-width="6" fill="none" class="trunk"/>
+      <path d="M800 116 q-34 -8 -58 12 M800 116 q-26 -28 -54 -24 M800 116 q12 -32 44 -32 M800 116 q36 -4 54 20" stroke-width="5" fill="none" class="frond"/></g>
+  </svg>
+  <div class="sea" aria-hidden="true">
+    <svg class="wave w1" viewBox="0 0 2880 120" preserveAspectRatio="none"><path d="M0 60 Q180 20 360 60 T720 60 T1080 60 T1440 60 T1800 60 T2160 60 T2520 60 T2880 60 V120 H0Z"/></svg>
+    <svg class="wave w2" viewBox="0 0 2880 120" preserveAspectRatio="none"><path d="M0 70 Q240 30 480 70 T960 70 T1440 70 T1920 70 T2400 70 T2880 70 V120 H0Z"/></svg>
+    <svg class="wave w3" viewBox="0 0 2880 120" preserveAspectRatio="none"><path d="M0 80 Q120 55 240 80 T480 80 T720 80 T960 80 T1200 80 T1440 80 T1680 80 T1920 80 T2160 80 T2400 80 T2640 80 T2880 80 V120 H0Z"/></svg>
+  </div>
+  <div class="hero-copy">
+    <p class="eyebrow"><span class="dot"></span><span id="clock">Malé time</span> · <span id="phaseName">Live sky</span></p>
+    <h1>A small house<br><em>under the stars.</em></h1>
+    <p class="lede">Six rooms on a quiet local island, a reef ten steps from the door, and a sky that's painted live to the minute in the Maldives.</p>
+    <div class="cta"><a href="#enquire" class="btn primary">Plan your stay</a><a href="#rooms" class="btn ghost">See the rooms</a></div>
+  </div>
+  <div class="phase-toggle" role="group" aria-label="Preview the sky">
+    <button data-p="live" class="on">Live</button><button data-p="dawn">Dawn</button><button data-p="day">Day</button><button data-p="sunset">Sunset</button><button data-p="night">Night</button>
+  </div>
+</section>
+
+<section class="intro wrap reveal">
+  <p class="kicker">Tharihiyaa — “star shade”</p>
+  <h2>Not a resort. A home on the island, with the doors left open.</h2>
+  <p>We're a family-run guesthouse on a local island, so you'll eat what we eat, swim where we swim and leave knowing the names of your neighbours. Breakfast is mas huni and fresh roshi. Dinner happens when the boats come in.</p>
+  <dl class="facts"><div><dt data-count="6">0</dt><dd>rooms only</dd></div><div><dt data-count="10">0</dt><dd>steps to the reef</dd></div><div><dt data-count="45">0</dt><dd>min by speedboat</dd></div></dl>
+</section>
+
+<section id="rooms" class="rooms wrap">
+  <div class="head reveal"><p class="kicker">Rooms</p><h2>Three ways to sleep by the sea</h2><p class="note">Sample rates per night, for demo purposes only.</p></div>
+  <div class="room-grid">
+    <article class="room reveal"><div class="ph"><img src="img/room1.jpg" alt="Beachfront room with four-poster bed and doors open to the lagoon" loading="lazy"></div>
+      <div class="rbody"><h3>Beachfront Room</h3><p>Coral-stone walls, a teak four-poster and doors that open straight onto the sand.</p>
+      <ul class="tags"><li>King bed</li><li>2 guests</li><li>Sea view</li></ul>
+      <p class="rate"><span class="mvr">MVR 2,300</span><span class="usd">≈ USD 150</span><small>sample</small></p>
+      <button class="btn line pick" data-room="Beachfront Room">Choose this room</button></div></article>
+    <article class="room reveal"><div class="ph"><img src="img/room2.jpg" alt="Garden suite with private courtyard, outdoor shower and hanging chairs" loading="lazy"></div>
+      <div class="rbody"><h3>Frangipani Garden Suite</h3><p>A private courtyard, a rain shower under the sky and two swing chairs for slow afternoons.</p>
+      <ul class="tags"><li>King bed</li><li>2 guests</li><li>Outdoor shower</li></ul>
+      <p class="rate"><span class="mvr">MVR 2,900</span><span class="usd">≈ USD 190</span><small>sample</small></p>
+      <button class="btn line pick" data-room="Frangipani Garden Suite">Choose this room</button></div></article>
+    <article class="room reveal"><div class="ph"><img src="img/room3.jpg" alt="Family loft with rope ladder bunks and a lagoon balcony" loading="lazy"></div>
+      <div class="rbody"><h3>Lagoon Family Loft</h3><p>Bunks up a rope ladder for the kids, a balcony over the lagoon for you.</p>
+      <ul class="tags"><li>King + bunks</li><li>4 guests</li><li>Balcony</li></ul>
+      <p class="rate"><span class="mvr">MVR 3,700</span><span class="usd">≈ USD 240</span><small>sample</small></p>
+      <button class="btn line pick" data-room="Lagoon Family Loft">Choose this room</button></div></article>
+  </div>
+</section>
+
+<section id="experiences" class="exp">
+  <div class="wrap">
+    <div class="head reveal"><p class="kicker light">Island experiences</p><h2>Build your days</h2><p class="note">Tap to add to your enquiry. Sample prices per person.</p></div>
+    <div class="exp-grid" id="expGrid"></div>
+    <div class="tray reveal" id="tray"><div><strong id="trayCount">0 experiences</strong><span id="trayList">Pick a few, we'll plan the rest.</span></div><span class="total" id="trayTotal">USD 0</span><a href="#enquire" class="btn primary small">Add to enquiry</a></div>
+  </div>
+</section>
+
+<section id="facilities" class="fac wrap">
+  <div class="head reveal"><p class="kicker">The stay</p><h2>Everything you need, nothing you don't</h2></div>
+  <ul class="fac-grid">
+    <li class="reveal"><span>☕</span><h4>Island breakfast</h4><p>Mas huni, roshi, fruit from the garden.</p></li>
+    <li class="reveal"><span>🛥️</span><h4>Speedboat transfers</h4><p>Met at Velana airport, arranged for you.</p></li>
+    <li class="reveal"><span>🤿</span><h4>Snorkel gear</h4><p>Masks and fins free for every guest.</p></li>
+    <li class="reveal"><span>📶</span><h4>Fast Wi-Fi</h4><p>Good enough for calls, if you must.</p></li>
+    <li class="reveal"><span>❄️</span><h4>Air-con & fans</h4><p>Every room, plus ceiling fans.</p></li>
+    <li class="reveal"><span>🌴</span><h4>Bikini beach</h4><p>A dedicated tourist beach nearby.</p></li>
+  </ul>
+</section>
+
+<section id="gallery" class="gal wrap">
+  <div class="head reveal"><p class="kicker">Gallery</p><h2>A week, in pictures</h2></div>
+  <div class="gal-grid">
+    <button class="g g1 reveal" data-src="img/sandbank.jpg"><img src="img/sandbank.jpg" alt="Sandbank with dhoni boat in turquoise lagoon" loading="lazy"></button>
+    <button class="g reveal" data-src="img/reef.jpg"><img src="img/reef.jpg" alt="Snorkeller above coral reef with turtle" loading="lazy"></button>
+    <button class="g reveal" data-src="img/dinner.jpg"><img src="img/dinner.jpg" alt="Beach dinner with lanterns at dusk" loading="lazy"></button>
+    <button class="g g4 reveal" data-src="img/dhoni.jpg"><img src="img/dhoni.jpg" alt="Dhoni silhouette at sunset" loading="lazy"></button>
+    <button class="g reveal" data-src="img/room2.jpg"><img src="img/room2.jpg" alt="Garden courtyard" loading="lazy"></button>
+  </div>
+</section>
+
+<section id="find" class="find wrap">
+  <div class="head reveal"><p class="kicker">Find us</p><h2>45 minutes from Velana by speedboat</h2><p>The map shows Kaafu Atoll as a general area, since Tharihiyaa is a fictional demo brand.</p></div>
+  <div class="map reveal"><iframe title="Map of Kaafu Atoll, Maldives" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=73.35%2C4.10%2C73.65%2C4.35&amp;layer=mapnik&amp;marker=4.2167%2C73.5333"></iframe></div>
+</section>
+
+<section id="enquire" class="enq">
+  <div class="wrap enq-in">
+    <div class="reveal"><p class="kicker light">Enquire</p><h2>Tell us when, we'll do the rest</h2><p>No booking engine, no card details. Your enquiry opens in WhatsApp or your email app, ready to send to us.</p></div>
+    <form id="form" class="reveal" novalidate>
+      <label>Name<input name="name" required autocomplete="name"></label>
+      <div class="row"><label>Arrive<input type="date" name="in" required></label><label>Leave<input type="date" name="out" required></label></div>
+      <div class="row"><label>Guests<select name="guests"><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5+</option></select></label>
+      <label>Room<select name="room" id="roomSel"><option>No preference</option><option>Beachfront Room</option><option>Frangipani Garden Suite</option><option>Lagoon Family Loft</option></select></label></div>
+      <label>Experiences<input name="exp" id="expField" placeholder="Pick some above, or type here"></label>
+      <label>Anything else?<textarea name="msg" rows="3"></textarea></label>
+      <p class="err" id="err" role="alert"></p>
+      <div class="cta"><button type="submit" data-via="wa" class="btn primary">Send via WhatsApp</button><button type="submit" data-via="mail" class="btn ghost">Send via email</button></div>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p class="fbrand">Tharihiyaa</p>
+    <p class="demo">This is a design demo. Tharihiyaa is a fictional brand; contacts are placeholders, rates are samples and images are AI-generated.</p>
+    <p class="credit">Design &amp; build by <a href="https://reseachrandomv.github.io/cv/">Fathimath Malaak Jaufar</a></p>
+  </div>
+</footer>
+
+<div class="lightbox" id="lb" hidden><button aria-label="Close">×</button><img alt=""></div>
+<script src="script.js"></script>
+</body>
+</html>
